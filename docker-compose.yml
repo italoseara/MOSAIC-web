@@ -1,0 +1,7 @@
+services:
+  api-service:
+    build: ./api
+    volumes:
+      - ./api:/usr/src/app
+    ports:
+      - "3001:80"
